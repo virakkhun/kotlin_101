@@ -1,4 +1,7 @@
 import classes.Rectangle
+import loops.printOutLoop
+import loops.printWhileLoop
+import loops.printWithIndex
 
 fun main(args: Array<String>) {
     // @ variables with `val`
@@ -42,4 +45,12 @@ fun main(args: Array<String>) {
 
     // arbitrary expression in template
     println("The perimeter is ${rectangle.perimeter}")
+
+    println("===================FOR-LOOP=======================")
+    printOutLoop()
+    printWithIndex()
+
+    println("===================WHILE-LOOP=======================")
+
+    printWhileLoop()
 }
