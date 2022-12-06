@@ -2,6 +2,7 @@ import classes.Rectangle
 import loops.printOutLoop
 import loops.printWhileLoop
 import loops.printWithIndex
+import ranges.Ranges
 
 fun main(args: Array<String>) {
     // @ variables with `val`
@@ -53,4 +54,14 @@ fun main(args: Array<String>) {
     println("===================WHILE-LOOP=======================")
 
     printWhileLoop()
+
+    println("===================Ranges=======================")
+
+    val range = Ranges()
+    range.operation(20, 30)
+    range.ifOutOfRange()
+    range.iterateOverRange(1, 10)
+    range.iterateOverProgression()
+
+
 }
